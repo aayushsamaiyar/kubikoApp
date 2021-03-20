@@ -1,12 +1,11 @@
-export const Gallery = (props) => {
+export const Courseadd = (props) => {
   return (
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>Join Courses</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            One can choose the courses from the following. 
           </p>
         </div>
         <div className='row'>
