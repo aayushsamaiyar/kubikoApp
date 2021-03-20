@@ -93,33 +93,34 @@
             "job": "Project Manager"
         }
     ],
+    
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
+        "address": "Vit vellore, India ",
+        "phone": "+91 82-0282-3373",
+        "email": "kubiko@gmail.com",
+        "facebook": "facebook.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Data Rendering",
+            "text": "Less data usage due to ReactJS which uses dynamic rendering so app can be used in remote and rural places where there is 2G access only."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Quiz platform",
+            "text": "Simplified version to quiz setup for teachers which can be reused and the data will never be lost as it will be stored in a Database, and hence its much more effective."
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "marks allotment",
+            "text": "Easy monitoring system for marks alloting and storing their details in the record."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Voice controll",
+            "text": "A voice control feature to navigate between pages."
         }
     ]
 }

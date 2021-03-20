@@ -1,15 +1,15 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
 import { About } from './components/about'
-import { Services } from './components/services'
 import { Courseadd } from './components/Courseadd'
-// import { Testimonials } from './components/testimonials'
-// import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
+import { BrowserRouter, Link, Redirect, Route } from 'react-router-dom'
+import SpeechRecognition, {useSpeechRecognition} from 'react-speech-recognition'
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1500,
@@ -28,14 +28,10 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Features data={landingPageData.Features} />
-      
-      <Services data={landingPageData.Services} />
       { <Courseadd /> }
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   )
-}
+} 
 
 export default App

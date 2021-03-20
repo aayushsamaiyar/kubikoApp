@@ -1,3 +1,5 @@
+import { Route } from "react-router"
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -15,15 +17,14 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            KUBIKO
-          </a>{' '}
+          <img
+            src='img/kubiko.png'
+            className='img-responsive'
+            alt='Project Title'
+          />{' '}
         </div>
 
-        <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
-        >
+        <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
@@ -41,12 +42,12 @@ export const Navigation = (props) => {
               </a>
             </li> }
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a href='#register' className='page-scroll'>
                 Register
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
+              <a href='#login' className='page-scroll'>
                 Login
               </a>
             </li>
