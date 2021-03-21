@@ -7,8 +7,7 @@ import { Courseadd } from './components/Courseadd'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
-import { BrowserRouter, Link, Redirect, Route } from 'react-router-dom'
-import SpeechRecognition, {useSpeechRecognition} from 'react-speech-recognition'
+
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
